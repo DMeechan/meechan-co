@@ -13,5 +13,12 @@ module.exports = {
   },
   parserOptions: {
     parser: 'babel-eslint'
-  }
+  },
+  overrides: [
+    {
+      files: [
+        "rellax.min.js",
+      ],
+    },
+  ],
 }

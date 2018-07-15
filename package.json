@@ -13,6 +13,7 @@
   "dependencies": {
     "bulma": "^0.7.1",
     "register-service-worker": "^1.0.0",
+    "rellax": "^1.6.2",
     "vue": "^2.5.16"
   },
   "devDependencies": {

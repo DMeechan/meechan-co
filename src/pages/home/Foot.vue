@@ -6,11 +6,14 @@
             </p>
         </div>
     </div>
+    <!-- Creating cool non-regular section transitions -->
+    <!-- Using CSS and SVGs -->
+    <!-- https://css-tricks.com/creating-non-rectangular-headers/ -->
 </template>
 
 <script>
 export default {
-  name: 'Head',
+  name: 'Foot',
 };
 </script>
 
