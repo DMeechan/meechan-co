@@ -12,71 +12,29 @@
   },
   "dependencies": {
     "register-service-worker": "^1.0.0",
-    "vue": "^2.5.16",
-    "vue-router": "^3.0.1"
+    "vue": "^2.5.16"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
-    "@vue/cli-plugin-e2e-cypress": "^3.0.0-beta.15",
-    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
-    "@vue/cli-plugin-pwa": "^3.0.0-beta.15",
-    "@vue/cli-plugin-unit-mocha": "^3.0.0-beta.15",
-    "@vue/cli-service": "^3.0.0-beta.15",
-    "@vue/eslint-config-prettier": "^3.0.0-rc.3",
-    "@vue/test-utils": "^1.0.0-beta.16",
+    "@vue/cli-plugin-babel": "^3.0.0-rc.4",
+    "@vue/cli-plugin-e2e-cypress": "^3.0.0-rc.4",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.4",
+    "@vue/cli-plugin-pwa": "^3.0.0-rc.4",
+    "@vue/cli-plugin-unit-mocha": "^3.0.0-rc.4",
+    "@vue/cli-service": "^3.0.0-rc.4",
+    "@vue/eslint-config-airbnb": "^3.0.0-rc.4",
+    "@vue/test-utils": "^1.0.0-beta.20",
     "chai": "^4.1.2",
-    "lint-staged": "^6.0.0",
+    "lint-staged": "^7.2.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.16"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "@vue/prettier"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {
-      "vue/html-indent": [
-        "error",
-        2
-      ],
-      "vue/require-default-prop": "error",
-      "vue/require-prop-types": "error",
-      "vue/html-quotes": [
-        "error",
-        "single"
-      ]
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": [
-      "vue-cli-service lint",
-      "git add"
-    ],
-    "*.vue": [
-      "vue-cli-service lint",
-      "git add"
-    ]
+    "*.js": ["vue-cli-service lint", "git add"],
+    "*.vue": ["vue-cli-service lint", "git add"]
   },
   "license": "MIT",
   "repository": {
@@ -84,7 +42,8 @@
     "url": "https://github.com/DMeechan/meechan-co"
   },
   "author": "Daniel Meechan",
-  "contributors": [{
+  "contributors": [
+    {
       "name": "Daniel Meechan",
       "email": "daniel.meechan.1@gmail.com"
     }
