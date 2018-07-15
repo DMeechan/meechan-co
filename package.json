@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "meechan-co-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
     "dev-test:e2e": "vue-cli-service test:e2e --mode staging"
   },
   "dependencies": {
+    "bulma": "^0.7.1",
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.16"
   },
@@ -33,8 +34,14 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": ["vue-cli-service lint", "git add"],
-    "*.vue": ["vue-cli-service lint", "git add"]
+    "*.js": [
+      "vue-cli-service lint",
+      "git add"
+    ],
+    "*.vue": [
+      "vue-cli-service lint",
+      "git add"
+    ]
   },
   "license": "MIT",
   "repository": {

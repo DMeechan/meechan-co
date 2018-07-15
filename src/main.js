@@ -1,5 +1,9 @@
 import Vue from 'vue';
+import 'bulma/css/bulma.css';
+
 import App from './App.vue';
+
+import './assets/scss/app.scss';
 import './registerServiceWorker';
 
 Vue.config.productionTip = false;
