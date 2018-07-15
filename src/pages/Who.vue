@@ -1,5 +1,5 @@
 <template>
-   <section id="home" class="hero is-medium is-warning">
+   <section id="home" class="hero is-large is-warning">
       <Head></Head>
       <Body></Body>
       <Foot></Foot>
