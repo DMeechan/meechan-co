@@ -1,7 +1,9 @@
 <template>
-  <div>
-
-  </div>
+  <section id="mission" class="section">
+    <div class="container">
+      Mission
+    </div>
+  </section>
 </template>
 
 <script>

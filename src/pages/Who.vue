@@ -1,7 +1,9 @@
 <template>
-  <div>
-
-  </div>
+  <section id="who" class="section">
+    <div class="container">
+      Who
+    </div>
+  </section>
 </template>
 
 <script>

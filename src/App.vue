@@ -1,6 +1,13 @@
 <template>
   <div id="app">
+    <Navigation></Navigation>
     <Home></Home>
+    <Who></Who>
+    <Mission></Mission>
+    <Skills></Skills>
+    <Projects></Projects>
+    <Timeline></Timeline>
+    <Contact></Contact>
   </div>
 </template>
 

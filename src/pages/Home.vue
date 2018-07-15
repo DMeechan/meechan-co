@@ -1,14 +1,23 @@
 <template>
-  <section class="hero is-fullheight">
-    {{ msg1 }}
-    {{ msg2 }}
+   <section id="home" class="hero is-fullheight is-dark is-bold">
+        <Head></Head>
+        <Body></Body>
+        <Foot></Foot>
   </section>
 </template>
 
 <script>
+import Head from './home/Head.vue';
+import Body from './home/Body.vue';
+import Foot from './home/Foot.vue';
+
 export default {
   name: 'Home',
-  components: {},
+  components: {
+    Head,
+    Body,
+    Foot,
+  },
   data() {
     return {
       msg1: "Hi, I'm Daniel",

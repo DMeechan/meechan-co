@@ -1,7 +1,9 @@
 <template>
-  <div>
-
-  </div>
+  <section id="timeline" class="section">
+    <div class="container">
+      Timeline
+    </div>
+  </section>
 </template>
 
 <script>
