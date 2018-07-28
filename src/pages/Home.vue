@@ -1,5 +1,5 @@
 <template>
-   <section id="home" class="hero is-fullheight is-dark is-bold">
+   <section id="home" class="hero is-fullheight is-dark">
         <Head></Head>
         <Body></Body>
         <Foot></Foot>
