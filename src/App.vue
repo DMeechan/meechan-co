@@ -3,7 +3,7 @@
     <!-- <Navigation></Navigation> -->
     <Home></Home>
     <Who></Who>
-    <Iam></Iam>
+    <Attributes></Attributes>
     <Mission></Mission>
     <Skills></Skills>
     <Projects></Projects>
@@ -15,7 +15,7 @@
 <script>
 import Home from './pages/Home.vue';
 import Who from './pages/Who.vue';
-import Iam from './pages/I-am.vue';
+import Attributes from './pages/Attributes.vue';
 import Mission from './pages/Mission.vue';
 import Skills from './pages/Skills.vue';
 import Projects from './pages/Projects.vue';
@@ -27,7 +27,7 @@ export default {
   components: {
     Home,
     Who,
-    Iam,
+    Attributes,
     Mission,
     Skills,
     Projects,

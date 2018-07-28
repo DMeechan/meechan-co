@@ -9,3 +9,8 @@ body {
     overflow-x: hidden;
     // font-family: 'Source Sans Pro', sans-serif;
 }
+
+.is-vertical-center {
+    display: flex;
+    align-items: center;
+}

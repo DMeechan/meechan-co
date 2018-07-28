@@ -1,9 +1,9 @@
 <template>
-   <section id="home" class="hero is-small is-dark">
+   <section id="attributes" class="hero is-small is-dark">
       <div class="hero-body">
         <div class="container">
-          <div class="columns" v-for="item in content" :key="item.name">
-              <div :class="titleAlignment(item.odd)">
+          <div class="columns is-vcentered" v-for="item in content" :key="item.name">
+              <div :class="titleAlignment(item.odd)" style="margin-top: 15px;">
                 {{ item.name }}
               </div>
               <div :class="emojiAlignment(item.odd)">
@@ -18,10 +18,10 @@
 </template>
 
 <script>
-import content from "./I-am/content.js";
+import content from "./Attributes/content.js";
 
 export default {
-  name: 'I-am',
+  name: 'Attributes',
   created() {
     this.content = content;
   },

@@ -8,7 +8,8 @@
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
-    "dev-test:e2e": "vue-cli-service test:e2e --mode staging"
+    "dev-test:e2e": "vue-cli-service test:e2e --mode staging",
+    "test": "vue-cli-service test:e2e --mode staging"
   },
   "dependencies": {
     "bulma": "^0.7.1",

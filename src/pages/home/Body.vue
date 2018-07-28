@@ -5,7 +5,7 @@
                 <span class="has-text-weight-light">
                     Hi, I'm
                 </span>
-                <span class="has-text-primary has-text-weight-semibold hue">
+                <span id="firstname" class="has-text-primary has-text-weight-semibold hue">
                     Daniel
                 </span>
             </h1>
