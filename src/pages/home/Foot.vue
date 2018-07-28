@@ -2,7 +2,7 @@
     <div class="hero-foot">
         <div class="container has-text-centered">
             <p class="has-text-grey-light">
-                Scroll down
+                scroll down to learn more
             </p>
         </div>
     </div>

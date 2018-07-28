@@ -1,4 +1,4 @@
-module.export = {
+export default {
   attributes: [
     {
       name: 'Empathy',

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Navigation></Navigation>
+    <!-- <Navigation></Navigation> -->
     <Home></Home>
     <Who></Who>
     <Mission></Mission>
