@@ -1,7 +1,7 @@
 <template>
     <div class="hero-foot">
         <div class="container has-text-centered">
-            <p class="has-text-grey-light">
+            <p class="has-text-grey-light" style="margin-bottom: 25px;">
                 scroll down to learn more
             </p>
         </div>

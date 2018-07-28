@@ -6,8 +6,6 @@
         <h1 class="title">
           My
           <span class="has-text-primary">skills</span>
-          &
-          <span class="has-text-warning">attributes</span>
         </h1>
 
         <div class="columns is-centered">
@@ -18,7 +16,7 @@
             <h2 class="is-size-2">
               Skills
             </h2>
-            <template v-for="item in content.skills">
+            <template v-for="item in skills">
               <article class="media" :key="item.name">
                 <div class="media-content">
                   <div class="content">
@@ -30,29 +28,6 @@
               </article>
             </template>
           </div>
-
-          <div class="column has-text-centered">
-            <h2 class="is-size-2">
-              Attributes
-            </h2>
-
-            <template v-for="item in content.attributes">
-              <article class="media" :key="item.name">
-                <figure class="image is-96x96">
-                  <img :src="item.image_url">
-                </figure>
-                <div class="media-content">
-                  <div class="content">
-                    <br />
-                    <h4 class="is-size-4 has-text-light has-text-centered">
-                      {{ item.name }}
-                    </h4>
-                  </div>
-                </div>
-              </article>
-            </template>
-          </div>
-
 
         </div>
 
