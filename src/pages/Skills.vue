@@ -18,8 +18,7 @@
             <h2 class="is-size-2">
               Skills
             </h2>
-<i class="devicon-mocha-plain"></i>
-            <template v-for="item in skills">
+            <template v-for="item in content.skills">
               <article class="media" :key="item.name">
                 <div class="media-content">
                   <div class="content">
@@ -37,7 +36,7 @@
               Attributes
             </h2>
 
-            <template v-for="item in attributes">
+            <template v-for="item in content.attributes">
               <article class="media" :key="item.name">
                 <figure class="image is-96x96">
                   <img :src="item.image_url">
@@ -54,7 +53,6 @@
             </template>
           </div>
 
-          
 
         </div>
 
@@ -64,7 +62,7 @@
 </template>
 
 <script>
-import content from "./skills/content.js";
+import content from './skills/content.js';
 
 export default {
   name: 'Skills',
@@ -85,9 +83,9 @@ export default {
     width: 100%;
     height:0;
     padding-bottom: 100%;
-    background: #4679BD; 
-    -moz-border-radius: 50%; 
-    -webkit-border-radius: 50%; 
+    background: #4679BD;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
     border-radius: 50%;
 }
 .circle-text div {
