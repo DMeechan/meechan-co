@@ -26,13 +26,13 @@ export default {
 
 
 .hue {
+    color: #000;
+    animation: hue 8s ease infinite;
     background: linear-gradient(124deg,#ff470f,#ff3860,#b86bff,#3273dc);
     background-size: 200% auto;
-    color: #000;
     background-clip: text;
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: hue 8s ease infinite;
+    -webkit-background-clip: text;
 
     @-webkit-keyframes hue {
         0% {
