@@ -1,21 +1,19 @@
 <template>
    <section id="home" class="hero is-medium is-dark">
-      <div class="hero-body" style="padding-bottom: 10px;">
+      <div class="hero-body" style="padding-bottom: 0px;">
         <div class="container">
             <h1 class="title">
-              <span class="has-text-weight-light">
-                Who am I?
-              </span>
+              Who am I?
             </h1>
-            <h2 class="subtitle has-text-grey-darker" style="margin-top: 60px;">
+            <h2 class="subtitle has-text-grey-darker" style="">
                 <transition name="fade" mode="in-out">
                   <span v-if="text !== ''" class="hue has-text-weight-semibold">
                     {{ text }}
                   </span>
                 </transition>
-                <span class="has-text-white">
+                <!-- <span class="has-text-white">
                   who is...
-                </span>
+                </span> -->
             </h2>
         </div>
     </div>

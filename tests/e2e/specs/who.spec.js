@@ -1,4 +1,4 @@
-describe('Who Am I page', () => {
+describe('Who page', () => {
     before(() => {
         cy.visit('/#who');
     });

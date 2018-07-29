@@ -4,8 +4,7 @@
       <div class="container">
 
         <h1 class="title">
-          My
-          <span class="has-text-primary">skills</span>
+          My <span class="has-text-primary">skills</span>
         </h1>
 
         <div class="columns is-centered">

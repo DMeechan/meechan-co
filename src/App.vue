@@ -3,7 +3,7 @@
     <!-- <Navigation></Navigation> -->
     <Home></Home>
     <Who></Who>
-    <Attributes></Attributes>
+    <!-- <Attributes></Attributes> -->
     <Mission></Mission>
     <Skills></Skills>
     <Projects></Projects>
