@@ -10,7 +10,7 @@
                     <h1 class="title is-h1">
                         My <span class="has-text-warning">mission</span>
                     </h1>
-                    <h2 class="subtitle has-text-grey-lighter">
+                    <h2 id="mission-statement" class="subtitle has-text-grey-lighter">
                         To <span class="has-text-warning has-text-weight-semibold">improve quality of life</span>
                         and <span class="has-text-warning has-text-weight-semibold">accelerate learning worldwide</span>
                         by innovating at the cross-section between technologies

@@ -3,8 +3,8 @@
     <!-- <Navigation></Navigation> -->
     <Home></Home>
     <Who></Who>
-    <!-- <Attributes></Attributes> -->
     <Mission></Mission>
+    <Attributes></Attributes>
     <Skills></Skills>
     <Projects></Projects>
     <Timeline></Timeline>

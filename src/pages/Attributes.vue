@@ -2,15 +2,21 @@
    <section id="attributes" class="hero is-small is-dark">
       <div class="hero-body">
         <div class="container">
-          <div class="columns is-vcentered" v-for="item in content" :key="item.name">
-              <div :class="titleAlignment(item.odd)" style="margin-top: 15px;">
+          <h1 class="title">
+              This is <span class="has-text-success">what I'm like</span>
+            </h1>
+          <div class="columns is-vcentered" v-for="item in content" :key="item.name" style="margin-left: -150px;">
+            <div v-if="item.odd === false" class="column is-5"></div>
+            <div class="column is-5 has-text-right" style="margin-top: 10px;">
+              <span class="subtitle has-text-weight-semibold">
                 {{ item.name }}
-              </div>
-              <div :class="emojiAlignment(item.odd)">
-                <figure class="image is-128x128">
-                  <img :src="item.image_url">
-                </figure>
-              </div>
+              </span>
+            </div>
+            <div class="column">
+              <figure class="image is-128x128">
+                <img :src="item.image_url">
+              </figure>
+            </div>
           </div>
         </div>
     </div>
@@ -27,12 +33,13 @@ export default {
   },
   methods: {
     titleAlignment(isOdd) {
-      const standardClasses = "column has-text-right subtitle has-text-weight-semibold ";
-      return isOdd === false ? standardClasses + "is-two-thirds" : standardClasses;
+      const standardClasses = "column subtitle has-text-weight-semibold ";
+      return isOdd === false ? standardClasses + "is-half has-text-right" : standardClasses;
     },
     emojiAlignment(isOdd) {
       const standardClasses = "column ";
-      return isOdd === false ? standardClasses : standardClasses + "is-two-thirds";
+      // return isOdd === false ? standardClasses : standardClasses + "is-two-thirds";
+      return standardClasses;
     },
   },
 };

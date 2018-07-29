@@ -3,8 +3,8 @@
     <div class="hero-body">
       <div class="container">
 
-        <h1 class="title">
-          My <span class="has-text-primary">skills</span>
+        <h1 class="title has-text-right">
+          And <span class="has-text-primary">what I'm good at</span>
         </h1>
 
         <div class="columns is-centered">
