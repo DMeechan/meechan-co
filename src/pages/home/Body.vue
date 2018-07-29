@@ -24,49 +24,6 @@ export default {
 </script>
 
 <style lang="scss">
-.hue-text {
-  background-clip: text !important;
-  -webkit-background-clip: text !important;
-}
-
-.hue {
-  color: #000;
-  animation: hue 8s ease infinite;
-  background: linear-gradient(124deg, #ff470f, #ff3860, #b86bff, #3273dc);
-  background-size: 200% auto;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-
-  @-webkit-keyframes hue {
-    0% {
-      background-position: 1% 80%;
-    }
-
-    50% {
-      background-position: 99% 20%;
-    }
-
-    to {
-      background-position: 1% 80%;
-    }
-  }
-
-  @keyframes hue {
-    0% {
-      background-position: 1% 80%;
-    }
-
-    50% {
-      background-position: 99% 20%;
-    }
-
-    to {
-      background-position: 1% 80%;
-    }
-  }
-}
-
 .is-fullheight .hero-body {
   .subtitle {
     float: right;
