@@ -21,7 +21,7 @@ export default [
   },
   {
     name: 'Infrastructure Automation',
-    class: 'devicon-amazonwebservices-plain-wordmark colored',
+    class: 'devicon-heroku-original colored',
   },
   {
     name: 'Automated Testing',

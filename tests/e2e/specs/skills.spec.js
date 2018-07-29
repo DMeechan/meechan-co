@@ -28,7 +28,7 @@ describe('Skills page', () => {
             .should('have.prop', 'title')
             .and('equal', 'Git');
 
-        cy.get('#skills .devicon-amazonwebservices-plain-wordmark.colored')
+        cy.get('#skills .devicon-heroku-original-wordmark.colored')
             .should('have.prop', 'title')
             .and('equal', 'Infrastructure Automation');
 
