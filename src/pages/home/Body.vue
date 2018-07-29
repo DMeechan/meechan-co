@@ -5,11 +5,11 @@
                 <span class="has-text-weight-light">
                     Hi, I'm
                 </span>
-                <span id="firstname" class="has-text-primary has-text-weight-semibold hue">
+                <span id="firstname" class="has-text-primary has-text-weight-semibold hue hue-text">
                     Daniel
                 </span>
             </h1>
-            <h2 id="surname" class="subtitle has-text-primary has-text-weight-semibold hue">
+            <h2 id="surname" class="subtitle has-text-primary has-text-weight-semibold hue hue-text">
                 Meechan
             </h2>
         </div>
@@ -24,6 +24,10 @@ export default {
 
 <style lang="scss">
 
+.hue-text {
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+}
 
 .hue {
     color: #000;

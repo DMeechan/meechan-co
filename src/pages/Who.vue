@@ -7,7 +7,7 @@
             </h1>
             <h2 class="subtitle has-text-grey-darker" style="">
                 <transition name="fade" mode="in-out">
-                  <span v-if="text !== ''" class="hue has-text-weight-semibold">
+                  <span v-if="text !== ''" class="hue hue-text has-text-weight-semibold">
                     {{ text }}
                   </span>
                 </transition>
