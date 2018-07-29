@@ -5,7 +5,9 @@
           <h1 class="title">
               This is <span class="has-text-warning">what I'm like</span>
           </h1>
-          <div class="columns is-vcentered" v-for="item in content" :key="item.name" style="margin-left: -150px;">
+          <div class="columns is-vcentered"
+            v-for="item in content" :key="item.name"
+            style="margin-left: -150px;">
             <div v-if="item.odd === false" class="column is-5"></div>
             <div class="column is-5 has-text-right" style="margin-top: 10px;">
               <span class="subtitle has-text-weight-semibold">
@@ -24,27 +26,15 @@
 </template>
 
 <script>
-import content from "./Attributes/content.js";
+import content from './Attributes/content';
 
 export default {
   name: 'Attributes',
   created() {
     this.content = content;
   },
-  methods: {
-    titleAlignment(isOdd) {
-      const standardClasses = "column subtitle has-text-weight-semibold ";
-      return isOdd === false ? standardClasses + "is-half has-text-right" : standardClasses;
-    },
-    emojiAlignment(isOdd) {
-      const standardClasses = "column ";
-      // return isOdd === false ? standardClasses : standardClasses + "is-two-thirds";
-      return standardClasses;
-    },
-  },
 };
 </script>
 
 <style lang="scss">
-
 </style>

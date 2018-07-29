@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import skills from './skills/content.js';
+import skills from './skills/content';
 
 export default {
   name: 'Skills',
