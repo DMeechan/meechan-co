@@ -4,6 +4,6 @@ describe('Timeline page', () => {
     });
 
     it('contains title', () => {
-        cy.contains('h1', "Timeline");
+        cy.contains('#timeline h1', "Timeline");
     });
 });

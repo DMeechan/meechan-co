@@ -11,9 +11,9 @@ describe('Attributes page', () => {
   });
 
   it('contains 4 correct attributes', () => {
-    cy.contains('.column > span.subtitle', 'empathetic');
-    cy.contains('.column > span.subtitle', 'enthusiastic');
-    cy.contains('.column > span.subtitle', 'persevering');
-    cy.contains('.column > span.subtitle', 'a team player');
+    cy.contains('#attributes .column > span.subtitle', 'empathetic');
+    cy.contains('#attributes .column > span.subtitle', 'enthusiastic');
+    cy.contains('#attributes .column > span.subtitle', 'persevering');
+    cy.contains('#attributes .column > span.subtitle', 'a team player');
   });
 });

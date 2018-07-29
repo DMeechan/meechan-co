@@ -4,12 +4,12 @@ describe('Home page', () => {
     });
 
     it('contains welcome text', () => {
-        cy.contains('h1', "Hi, I'm");
-        cy.contains('#firstname', 'Daniel');
-        cy.contains('#surname', 'Meechan');
+        cy.contains('#home h1', "Hi, I'm");
+        cy.contains('#home #firstname', 'Daniel');
+        cy.contains('#home #surname', 'Meechan');
     });
 
     it('contains scroll down indicator', () => {
-        cy.contains('p', 'scroll down to learn more');
+        cy.contains('#home p', 'scroll down to learn more');
     });
 });

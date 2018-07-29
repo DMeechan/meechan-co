@@ -4,6 +4,6 @@ describe('Contact page', () => {
     });
 
     it('contains title', () => {
-        cy.contains('h1', "Contact");
+        cy.contains('#contact h1', "Contact");
     });
 });

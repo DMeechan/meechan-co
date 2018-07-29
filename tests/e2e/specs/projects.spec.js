@@ -4,6 +4,6 @@ describe('Projects page', () => {
     });
 
     it('contains title', () => {
-        cy.contains('h1', "Projects");
+        cy.contains('#projects h1', "Projects");
     });
 });

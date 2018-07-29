@@ -1,15 +1,15 @@
 export default [
   {
+    name: 'JavaScript',
+    class: 'devicon-javascript-plain colored',
+  },
+  {
     name: 'Node.js',
     class: 'devicon-nodejs-plain-wordmark colored',
   },
   {
     name: 'Meteor.js',
-    class: 'devicon-meteor-plain-wordmark',
-  },
-  {
-    name: 'JavaScript',
-    class: 'devicon-javascript-plain colored',
+    class: 'devicon-meteor-plain-wordmark colored',
   },
   {
     name: 'Vue.js',
@@ -20,12 +20,12 @@ export default [
     class: 'devicon-git-plain-wordmark colored',
   },
   {
-    name: 'Infrastructure Automtion',
+    name: 'Infrastructure Automation',
     class: 'devicon-amazonwebservices-plain-wordmark colored',
   },
   {
     name: 'Automated Testing',
-    class: 'devicon-mocha-plain',
+    class: 'devicon-mocha-plain colored',
   },
   {
     name: 'Artificial Intelligence',

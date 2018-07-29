@@ -4,12 +4,12 @@ describe('Who page', () => {
     });
 
     it('contains title', () => {
-        cy.contains('h1.title', "Who am I?");
+        cy.contains('#who h1.title', "Who am I?");
     });
 
     it('contains description', () => {
-        cy.contains('h2.subtitle > .hue', 'a software developer');
-        cy.contains('h2.subtitle > .hue', 'an avid experimenter');
-        cy.contains('h2.subtitle > .hue', 'an entrepreneur');
+        cy.contains('#who h2.subtitle > .hue', 'a software developer');
+        cy.contains('#who h2.subtitle > .hue', 'an avid experimenter');
+        cy.contains('#who h2.subtitle > .hue', 'an entrepreneur');
     });
 });

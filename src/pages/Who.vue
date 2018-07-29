@@ -1,5 +1,5 @@
 <template>
-   <section id="home" class="hero is-medium is-dark">
+   <section id="who" class="hero is-medium is-dark">
       <div class="hero-body" style="padding-bottom: 0px;">
         <div class="container">
             <h1 class="title">

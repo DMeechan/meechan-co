@@ -4,7 +4,7 @@
         <div class="container">
           <h1 class="title">
               This is <span class="has-text-success">what I'm like</span>
-            </h1>
+          </h1>
           <div class="columns is-vcentered" v-for="item in content" :key="item.name" style="margin-left: -150px;">
             <div v-if="item.odd === false" class="column is-5"></div>
             <div class="column is-5 has-text-right" style="margin-top: 10px;">
