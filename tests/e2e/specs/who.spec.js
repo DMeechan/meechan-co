@@ -11,6 +11,5 @@ describe('Who page', () => {
         cy.contains('h2.subtitle > .hue', 'a software developer');
         cy.contains('h2.subtitle > .hue', 'an avid experimenter');
         cy.contains('h2.subtitle > .hue', 'an entrepreneur');
-        cy.contains('h2.subtitle > .has-text-white', 'who is...');
     });
 });

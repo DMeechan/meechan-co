@@ -1,13 +1,9 @@
-describe('Mission page', () => {
+describe('Timeline page', () => {
     before(() => {
-        cy.visit('/#mission');
+        cy.visit('/#timeline');
     });
 
     it('contains title', () => {
-        cy.contains('h1', "My mission...");
-    });
-
-    it('contains some text', () => {
-        cy.get('#mission > .hero-body > .container > .subtitle');
+        cy.contains('h1', "Timeline");
     });
 });
